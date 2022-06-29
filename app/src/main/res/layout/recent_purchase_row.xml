@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/purchasedBy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginRight="1dp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/edit_button">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/remove"
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:src="@drawable/remove">
+    </ImageView>
+
+</LinearLayout>
